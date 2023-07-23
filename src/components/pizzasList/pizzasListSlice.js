@@ -17,15 +17,37 @@ const pizzasSlice = createSlice({
   reducers: {
     activeChange: {
       reducer: (state, action) => {
-        const { pizzaId, characteristicName, nameActive } = action.payload;
+        const { pizzaId, characteristicName, nameActive, characteristicPrice } =
+          action.payload;
         state.pizzas.forEach((item) => {
           if (item.id === pizzaId) {
             item[nameActive] = characteristicName;
+            if (nameActive === "activeTesto") {
+              item.price =
+                item.price - item.pastPrice.testo + characteristicPrice;
+              item.pastPrice.testo = characteristicPrice;
+            } else if (nameActive === "activeSize") {
+              item.price =
+                item.price - item.pastPrice.size + characteristicPrice;
+              item.pastPrice.size = characteristicPrice;
+            }
           }
         });
       },
-      prepare: (pizzaId, characteristicName, nameActive) => {
-        return { payload: { pizzaId, characteristicName, nameActive } };
+      prepare: (
+        pizzaId,
+        characteristicName,
+        nameActive,
+        characteristicPrice
+      ) => {
+        return {
+          payload: {
+            pizzaId,
+            characteristicName,
+            nameActive,
+            characteristicPrice,
+          },
+        };
       },
     },
   },

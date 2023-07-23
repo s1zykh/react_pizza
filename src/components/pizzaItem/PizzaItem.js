@@ -35,7 +35,7 @@ const PizzaItem = ({
             className={btnClasses}
             key={i}
             onClick={() => {
-              dispatch(activeChange(id, name, "activeTesto"));
+              dispatch(activeChange(id, name, "activeTesto", price));
             }}
           >
             {label}
@@ -53,7 +53,7 @@ const PizzaItem = ({
             className={btnClasses}
             key={i}
             onClick={() => {
-              dispatch(activeChange(id, name, "activeSize"));
+              dispatch(activeChange(id, name, "activeSize", price));
             }}
           >
             {label}
@@ -82,7 +82,7 @@ const PizzaItem = ({
       <h4 className="pizzaItem__name fz-20">{name}</h4>
       <div className="pizzaItem__characteristic">{view}</div>
       <div className="pizzaItem__priceAdd">
-        <div className="pizzaItem__priceAdd-price">от {price} ₽</div>
+        <div className="pizzaItem__priceAdd-price"> {price} ₽</div>
         <div className="pizzaItem__priceAdd-button">
           <FontAwesomeIcon icon={faPlus} style={{ color: "#ffffff" }} />
           Добавить

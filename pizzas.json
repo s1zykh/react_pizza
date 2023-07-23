@@ -7,7 +7,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 2,
@@ -16,7 +20,11 @@
       "price": 290,
       "src": "./assets/img/pizzas/image 5.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 3,
@@ -25,7 +33,11 @@
       "price": 590,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 4,
@@ -34,7 +46,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 5,
@@ -43,7 +59,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 6,
@@ -52,7 +72,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 7,
@@ -61,7 +85,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     },
     {
       "id": 8,
@@ -70,7 +98,11 @@
       "price": 390,
       "src": "./assets/img/pizzas/image.png",
       "activeTesto": "thin",
-      "activeSize": "twenty six"
+      "activeSize": "twenty six",
+      "pastPrice": {
+        "testo": 0,
+        "size": 0
+      }
     }
   ],
   "filters": [
