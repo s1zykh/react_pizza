@@ -1,0 +1,52 @@
+@import "../../scss/variables.scss";
+@import "../../scss/text.scss";
+
+.sorting {
+  margin-top: 45px;
+  position: relative;
+  display: flex;
+  min-width: 220px;
+  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+  &__menu {
+    padding: 10px 0;
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    &-item {
+      padding: 10px 14px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(255, 166, 0, 0.162);
+        color: $color-orange;
+      }
+    }
+  }
+  &__vector {
+    width: 12px;
+    height: 12px;
+    img {
+      width: 100%;
+    }
+  }
+  &__options {
+    &-text {
+      font-weight: 700;
+      span {
+        cursor: pointer;
+        font-weight: normal;
+        color: $color-orange;
+        border-bottom: 1px dotted $color-orange;
+      }
+    }
+  }
+  &__menu {
+    position: absolute;
+    right: 0;
+    top: 30px;
+  }
+}
+.activeMenu {
+  display: block;
+}

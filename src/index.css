@@ -1,0 +1,14 @@
+@import "./styles/normalize.css";
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ffdf8c;
+  padding: 40px 55px;
+}
+
+.container {
+  width: 1225px;
+  margin: 0 auto;
+}

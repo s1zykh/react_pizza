@@ -1,0 +1,11 @@
+.pizzasList {
+  margin-top: 35px;
+  &__text {
+    margin-bottom: 35px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

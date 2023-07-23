@@ -1,0 +1,166 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Чизбургер-пицца",
+      "type": "meat",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 2,
+      "name": "Сырная",
+      "type": "meat",
+      "price": 290,
+      "src": "./assets/img/pizzas/image 5.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 3,
+      "name": "Креветки по-азиатски",
+      "type": "grill",
+      "price": 590,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 4,
+      "name": "Сырный цыпленок",
+      "type": "grill",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 5,
+      "name": "Чизбургер-пицца",
+      "type": "grill",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 6,
+      "name": "Чизбургер-пицца",
+      "type": "closed",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 7,
+      "name": "Чизбургер-пицца",
+      "type": "vegetarian",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    },
+    {
+      "id": 8,
+      "name": "Чизбургер-пицца",
+      "type": "sharp",
+      "price": 390,
+      "src": "./assets/img/pizzas/image.png",
+      "activeTesto": "thin",
+      "activeSize": "twenty six"
+    }
+  ],
+  "filters": [
+    {
+      "id": 1,
+      "name": "all",
+      "label": "Все"
+    },
+    {
+      "id": 2,
+      "name": "meat",
+      "label": "Мясные"
+    },
+    {
+      "id": 3,
+      "name": "vegetarian",
+      "label": "Вегетерианская"
+    },
+    {
+      "id": 4,
+      "name": "grill",
+      "label": "Гриль"
+    },
+    {
+      "id": 5,
+      "name": "sharp",
+      "label": "Острые"
+    },
+    {
+      "id": 6,
+      "name": "closed",
+      "label": "Закрытые"
+    }
+  ],
+  "sorting": [
+    {
+      "id": 1,
+      "name": "popularity",
+      "label": "популярности"
+    },
+    {
+      "id": 2,
+      "name": "price",
+      "label": "цене"
+    },
+    {
+      "id": 3,
+      "name": "alphabet",
+      "label": "алфавиту"
+    }
+  ],
+  "characteristic": {
+    "testo": [
+      {
+        "characId": 1,
+        "name": "thin",
+        "label": "тонкая",
+        "activeCharac": false,
+        "price": 0
+      },
+      {
+        "characId": 2,
+        "name": "traditional",
+        "label": "традиционная",
+        "activeCharac": false,
+        "price": 100
+      }
+    ],
+    "size": [
+      {
+        "characId": 1,
+        "name": "twenty six",
+        "label": "26",
+        "activeCharac": false,
+        "price": 0
+      },
+      {
+        "characId": 2,
+        "name": "thirty",
+        "label": "30",
+        "activeCharac": false,
+        "price": 150
+      },
+      {
+        "characId": 3,
+        "name": "ourty",
+        "label": "40",
+        "activeCharac": false,
+        "price": 250
+      }
+    ]
+  }
+}

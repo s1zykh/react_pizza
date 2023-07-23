@@ -1,0 +1,52 @@
+@import "../../scss/variables.scss";
+@import "../../scss/text.scss";
+
+/* logo */
+.logo {
+  display: flex;
+  width: 330px;
+  justify-content: space-between;
+  align-items: center;
+  &__texts {
+    &-description {
+      color: $color-gray;
+    }
+  }
+}
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__basket {
+    display: flex;
+    padding: 15px 23px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: $color-orange;
+    color: $color-off-white;
+    justify-content: space-between;
+    border-radius: 50px;
+    &-price {
+      border-right: 1px sold #ffff;
+    }
+    &-count {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    &-line {
+      width: 1px;
+      background-color: hsla(0, 0%, 100%, 0.56);
+      height: 100%;
+    }
+  }
+  &__line {
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgba(188, 180, 180, 0.142);
+    height: 2px;
+  }
+}

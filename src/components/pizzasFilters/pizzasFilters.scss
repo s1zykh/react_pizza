@@ -1,0 +1,23 @@
+.filters {
+  margin-top: 40px;
+  &__group {
+    display: flex;
+    gap: 10px;
+    min-width: 700px;
+    &-item {
+      cursor: pointer;
+      text-align: center;
+      padding: 10px 20px;
+      border-radius: 15px;
+      font-weight: 700;
+      &.active {
+        background-color: black;
+        color: white;
+        transition: all 0.8s;
+      }
+    }
+  }
+  &__wrapper {
+    display: flex;
+  }
+}
